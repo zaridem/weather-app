@@ -23,11 +23,16 @@ li {
   line-height: 1;
   list-style: none;
 }
+small {
+  display: block;
+  margin: 0 auto;
+}
+
 
 .weather-app {
   border: 1px solid #dadde1;
-  padding: 15px;
-  margin: 20px auto;
+  padding: 20px 16px 24px 16px;
+  margin: 20px 0;
   border-radius: 10px;
   max-width: 600px;
 }

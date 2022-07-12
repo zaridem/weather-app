@@ -37,10 +37,10 @@ small {
   max-width: 600px;
 }
 
-.weather-icon {
-  height: 64px;
-  width: 64px;
-  margin-right: 10px;
+.weather-temperature img {
+  margin-right: 5px;
+  height: 68px;
+  width: 68px;
 }
 
 .temperature {
@@ -53,6 +53,15 @@ small {
 .units {
   position: relative;
   top: -34px;
+}
+
+.weather-temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
 }
 
 .search-form {
